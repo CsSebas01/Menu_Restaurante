@@ -1,0 +1,82 @@
+/*
+ * Autor: Sebastián Escobar 
+*/
+
+/* Estilo general */
+body {
+  background-color: #efe7da; /* Gris claro */
+  font-family: 'Cormorant Garamond', serif; /* Fuente cursiva elegante */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px; /* Aumenta el tamaño de la letra */
+}
+
+h1, h2 {
+  color: #b22222;
+  margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive; /* Fuente cursiva para títulos */
+}
+
+p {
+  margin: 5px;
+  color: #161515;
+  font-style: italic; /* Estilo cursivo */
+}
+
+/* Tabla */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #f7ecd7; /* Fondo crema */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #b22222; /* Borde rojo */
+}
+thead tr{
+  background-color: #b22222; /* Fondo rojo */
+  color: white;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #888080;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+/* para que no se marque el hover al acercar el mouse al encabezado de la tabla */
+thead tr:hover {
+  background-color: #b22222 !important;
+  cursor: default;
+}
+
+td {
+  color: #333;
+}
+
+/* contacto */
+#contacto {
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Marco de la página */
+body {
+  background-color: #efe7da;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 10px solid;
+  border-image: linear-gradient(to right, green, white, red) 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
